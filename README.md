@@ -10,7 +10,9 @@
 ### Clustering Analysis for chemical data
 - The goal of this project is to familiarize with and understand the clustering techniques
 - Method used:
-  1. Performed K-mean Clustering: finding the optimal k using elbow method
-  2. Used DBSCAN to get the clusters: finding the optimal epsilon using k-distance method
-  3. Used t-SNE to visualize the k-mean clusters and DBSCAN clusters
-  4. Using Cosine Distance as an alternate distance metric for k-mean clustering because the data is composed of binary values
+  1. Performed **_K-mean Clustering_**: finding the optimal k using elbow method
+  2. Used **_DBSCAN_** to get the clusters: finding the optimal epsilon using k-distance method
+  3. Used **_t-SNE_** to visualize the k-mean clusters and DBSCAN clusters
+  4. Using **_Cosine Distance_** as an alternate distance metric for k-mean clustering because the data is composed of binary values
+ 
+
