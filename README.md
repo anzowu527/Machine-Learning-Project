@@ -16,22 +16,23 @@
   4. Using **_Cosine Distance_** as an alternate distance metric for k-mean clustering because the data is composed of binary values
  
 ### Linear Model
-- My task is to predict the disease type (phenotype) from transcriptomics data. Disease: UCEC (uterine corpus endometrial carcinoma). Labels (0/1) are encoding tumor grade “II-” vs. “III+”
-- Performed binary classification (0/1) using **_linear models_**. Measured the classification performance using accuracy and **_F1-score_** on the given test set.
-- Develop a pipeline to try different linear models (**_linear regression, logistic regression, ridge regression, LASSO_**, etc.)
-- Regularized parameter(s) on model performance
-- Performed **feature selection** using **_Random Forest_** and **_Chi-square_** Test
-- Visualized the dataset using **_T-SNE_** and **_PCA_**
-- Got 91.6% F1-score
+- My task is to predict the disease type (phenotype) from transcriptomics data, focusing on UCEC (uterine corpus endometrial carcinoma) with labels (0/1) encoding tumor grade “II-” vs. “III+”.
+- Perform **binary classification** using **_linear models_** and measure classification performance with accuracy and F1-score on the test set.
+- Develop a pipeline to experiment with various linear models, including **_linear regression, logistic regression, ridge regression, and LASSO_**.
+- Regularize parameters to enhance model performance.
+- Conduct **feature selection** using **_Random Forest_** and **_Chi-square Test_**.
+- Visualized the dataset using **_T-SNE_** and **_PCA_** techniques.
+- Got 91.6% F1-score.
 
 ### Binary Classification
-- The goal is to predict the brightness level binarized for classification between high brightness (class 1) and low brightness (class 0) for a set of mutants of Green Fluorescent Protein.
-- Load the descriptors as new columns and perform the training
-- Intelligently chose the set of descriptors that can obtain the best prediction accuracy
-- Chose the best training model and optimized the parameters by **_parameter tunning_**
-- Performed Feature selection by **_Recursive Feature Elimination (RFE)_**
-
+- The goal is to Predict the binarized brightness level for classification into high brightness (class 1) and low brightness (class 0) among mutants of Green Fluorescent Protein.
+- Load descriptors as new columns to train the model.
+- Select a set of descriptors strategically to achieve the highest prediction accuracy.
+- Choose the optimal training model and optimize its parameters through _**parameter tuning**_.
+- Perform feature selection using **_Recursive Feature Elimination (RFE)_**
+  
 ### Regression Model
-- Goal is to predict quantitative measurements of the band gap (Egap) for a set of inorganic crystaline materials.
-- Found **_xgboost_** performs the best out of the different kind of model
-- Did a fine parameter tunning by set 
+- Goal is to predict quantitative measurements of the band gap (Egap) for a set of inorganic crystalline materials
+- Execute a model pipeline and determine that **_xgboost_** outperforms other models.
+- Implement **_model stacking_** techniques to combine predictions from multiple models.
+- Conduct fine parameter tuning by setting adjustments.
