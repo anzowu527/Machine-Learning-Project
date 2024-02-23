@@ -15,4 +15,5 @@
   3. Used **_t-SNE_** to visualize the k-mean clusters and DBSCAN clusters
   4. Using **_Cosine Distance_** as an alternate distance metric for k-mean clustering because the data is composed of binary values
  
-
+### Binary Prediction
+- My task is to predict the disease type (phenotype) from transcriptomics data. Disease: UCEC (uterine corpus endometrial carcinoma). Labels (0/1) are encoding tumor grade “II-” vs. “III+”
