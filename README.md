@@ -24,4 +24,14 @@
 - Visualized the dataset using **_T-SNE_** and **_PCA_**
 - Got 91.6% F1-score
 
-### 
+### Binary Classification
+- The goal is to predict the brightness level binarized for classification between high brightness (class 1) and low brightness (class 0) for a set of mutants of Green Fluorescent Protein.
+- Load the descriptors as new columns and perform the training
+- Intelligently chose the set of descriptors that can obtain the best prediction accuracy
+- Chose the best training model and optimized the parameters by **_parameter tunning_**
+- Performed Feature selection by **_Recursive Feature Elimination (RFE)_**
+
+### Regression Model
+- Goal is to predict quantitative measurements of the band gap (Egap) for a set of inorganic crystaline materials.
+- Found **_xgboost_** performs the best out of the different kind of model
+- Did a fine parameter tunning by set 
