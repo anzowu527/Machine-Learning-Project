@@ -15,7 +15,7 @@
   3. Used **_t-SNE_** to visualize the k-mean clusters and DBSCAN clusters
   4. Using **_Cosine Distance_** as an alternate distance metric for k-mean clustering because the data is composed of binary values
  
-### Binary Prediction
+### Linear Model
 - My task is to predict the disease type (phenotype) from transcriptomics data. Disease: UCEC (uterine corpus endometrial carcinoma). Labels (0/1) are encoding tumor grade “II-” vs. “III+”
 - Performed binary classification (0/1) using **_linear models_**. Measured the classification performance using accuracy and **_F1-score_** on the given test set.
 - Develop a pipeline to try different linear models (**_linear regression, logistic regression, ridge regression, LASSO_**, etc.)
@@ -23,3 +23,5 @@
 - Performed **feature selection** using **_Random Forest_** and **_Chi-square_** Test
 - Visualized the dataset using **_T-SNE_** and **_PCA_**
 - Got 91.6% F1-score
+
+### 
