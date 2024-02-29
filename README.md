@@ -1,4 +1,4 @@
-# Machine-Learning-Project
+# Machine-Learning-Projects
 ### EDA for Chemical Descriptor Analysis
 - Given a data with columns of chemical descriptors, my task is to perform EDA and dimensionality reduction technique to understand the data.
 - Method used:
