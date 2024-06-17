@@ -1,5 +1,5 @@
 # Machine-Learning-Projects
-## EDA
+## Chemical Descriptor Analysis
 - Given a data with columns of chemical descriptors, my task is to perform EDA and dimensionality reduction technique to understand the data.
 - Method used:
   1. Used **_Network Garph_** to find the highly correlated pair of descriptors
